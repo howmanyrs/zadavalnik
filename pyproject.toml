@@ -7,13 +7,14 @@ name = "zadavalnik"
 version = "0.0.1"
 description = "Questioning bot"
 authors = [
-    { name = "Anton Lobachev", email = "anvlobachev@gmail.com" }
+    { name = "Anton Lobachev", email = "anvlobachev@gmail.com" },
+    { name = "Polina Serebrennikova", email = "pennysilv@gmail.com" }
 ]
 # license = { file = "LICENSE" }
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "python-telegram-bot[ext]>=20.7,<21.0",
+    "python-telegram-bot[ext]==20.0,
     "openai>=1.3.0",
     "sqlalchemy[asyncio]>=1.4.0,<2.1.0",
     "aiosqlite>=0.17.0",
